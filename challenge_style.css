@@ -1,0 +1,132 @@
+* {
+  font-family: sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  margin-top: 40px;
+  position: relative;
+}
+
+header h3{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(206, 190, 190, 0.109);
+  font-weight: 790;
+  margin: 10px auto;
+  padding: 10px 10px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.price {
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  color: #844646;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.s {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.link {
+  color: #000;
+  font-weight: bold;
+  margin-top: 10px auto;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.products {
+  margin-top: 15px;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+ul {
+  padding: 0% 0% 0% 20px;
+}
+ul li {
+  list-style: square;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #000;
+  font-size: 20px;
+  color: #f9f6f6;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 10px 10px; 
+}
+
+button:hover {
+  color: #000;
+  background-color: #f9f6f6;
+  font-weight: bold;
+  transition:all 2s ease;
+  cursor: pointer;
+}
+.main-container {
+  width: 700px;
+  margin: 10px auto;
+  height: auto;
+  border: 5px solid #000;
+}
+
+#top {
+  border: #000 solid 1px;
+  background-color: #e02e2e;
+  color: aqua;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -5px;
+  left: 22rem;
+  font-size: 15px;
+}
+
+.box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  cursor: pointer;
+  margin: 5px 0 0 10px;
+}
+
+.blue {
+  background: #13b4ff;
+}
+
+.red {
+  background: #dd3f4c;
+}
+
+.white {
+  background: #ae163e;
+}
+
+.grey {
+  background-color: gray;
+}
+
+.black {
+  background-color: #000;
+}
